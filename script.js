@@ -85,4 +85,40 @@ function updateTotal() {
   }
 
   total.textContent = `Total: ${sum}`;
+
+  let text;
+  switch (sum) {
+    case 4:
+      text = "This moment should be legendary. Discuss.";
+      break;
+    case 3:
+      text = "The task is completed stylishly, but with a major benefit.";
+      break;
+    case 2:
+      text = "The task is completed stylishly, but with a bonus.";
+      break;
+    case 1:
+      text = "The task is completed stylishly.";
+      break;
+    case 0:
+      text = "The task is completed.";
+      break;
+    case -1:
+      text = "The task is completed sloppily.";
+      break;
+    case -2:
+      text = "The task is completed sloppily, but with a setback.";
+      break;
+    case -3:
+      text = "The task is completed sloppily, but with a major complication.";
+      break;
+    case -4:
+      text = "This moment should live in infamy. Discuss.";
+      break;
+    default:
+      text = "";
+      break;
+  }
+
+  result.textContent = text;
 }
