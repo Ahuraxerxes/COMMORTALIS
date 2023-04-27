@@ -91,7 +91,7 @@ button:disabled {
 }
 
 iframe {
-  border: none;
+  border: 1px solid white;
   display: block;
   margin: 0 auto;
   background: #4d0000;
