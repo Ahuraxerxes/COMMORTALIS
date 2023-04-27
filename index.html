@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COMMORTALIS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="dice-container">
+        <h1>COMMORTALIS</h1>
+		<h2>Dice Roller</h2>
+        <div id="dice">
+            <button id="strength-button" disabled>Strength</button>
+            <div class="die" id="die1"></div>
+            <div class="die" id="die2"></div>
+            <div class="die" id="die3"></div>
+            <button id="weakness-button" disabled>Weakness</button>
+        </div>
+        <div id="controls">
+            <button id="roll-button">Roll Dice</button>
+            <select id="modifier-select">
+                <option value=""> </option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+            </select>
+        </div>
+        <div id="total"></div>
+    </div>
+	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQdL9RAeKzoBqbzrzhARci_zg1m5nPn-dLOVBxhA9OdMc_EVWkCwdkxZkEdPcP6Vhmeou41QLKnmdUe/pubhtml;widget=true&amp;headers=false" style="width: 98%; height: 800px; margin-top: 20px; padding: 10px;"></iframe>
+    <script src="script.js"></script>
+</body>
+</html>
